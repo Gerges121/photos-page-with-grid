@@ -1,0 +1,191 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 30px;
+}
+button{
+  color: white;
+  padding: 10px;
+  background-color: #555555;
+  border: none;
+}
+button:hover{
+  background-color: #a6a4a4;
+  cursor: pointer;
+}
+.gridBoxes {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: repeat(20, 1fr);
+  height: 1600px;
+  width: 60%;
+}
+
+#item1 {
+  grid-column: 1;
+  grid-row: 1/9;
+  background: url("../img/rocks.jpg");
+  background-position: center;
+  background-size: cover;
+
+}
+
+#item2 {
+  grid-column: 1;
+  grid-row: 9/11;
+  background: url("../img/sound.jpg");
+  background-position: center;
+  background-size: cover;
+
+}
+
+#item3 {
+  grid-column: 1;
+  grid-row: 11;
+  background: url("../img/woods.jpg");
+  background-position: center;
+  background-size: cover;
+
+}
+
+#item4 {
+  grid-column: 1;
+  grid-row: 12/16;
+  background: url("../img/rock.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+#item5 {
+  grid-column: 1;
+  grid-row: 16/19;
+  background: url("../img/nature.jpg");
+  background-position: center;
+  background-size: cover;
+
+}
+
+#item6 {
+  grid-column: 1;
+  grid-row: 19;
+  background: url("../img/mist.jpg");
+  background-position: center;
+  background-size: cover;
+
+}
+
+#item7 {
+  grid-column: 2;
+  grid-row: 1/3;
+  background: url("../img/coffee.jpg");
+  background-position: center;
+  background-size: cover;
+
+}
+
+#item8 {
+  grid-column: 2;
+  grid-row: 3;
+  background: url("../img/bridge.jpg");
+  background-position: center;
+  background-size: cover;
+
+}
+
+#item9 {
+  grid-column: 2;
+  grid-row: 4/7;
+  background: url("../img/notebook.jpg");
+  background-position: center;
+  background-size: cover;
+
+}
+
+#item10 {
+  grid-column: 2;
+  grid-row: 7/10;
+  background: url("../img/london.jpg");
+  background-position: center;
+  background-size: cover;
+
+}
+
+#item11 {
+  grid-column: 2;
+  grid-row: 10/18;
+  background: url("../img/rocks.jpg");
+  background-position: center;
+  background-size: cover;
+
+}
+
+#item12 {
+  grid-column: 2;
+  grid-row: 18/21;
+  background: url("../img/avatar_g.jpg");
+  background-position: center;
+  background-size: cover;
+
+}
+
+#item13 {
+  grid-column: 3;
+  grid-row: 1;
+  background: url("../img/mist.jpg");
+  background-position: center;
+  background-size: cover;
+
+}
+
+#item14 {
+  grid-column: 3;
+  grid-row: 2/4;
+  background: url("../img/workbench.jpg");
+  background-position: center;
+  background-size: cover;
+
+}
+
+#item15 {
+  grid-column: 3;
+  grid-row: 4/8;
+  background: url("../img/gondol.jpg");
+  background-position: center;
+  background-size: cover;
+
+}
+
+#item16 {
+  grid-column: 3;
+  grid-row: 8/12;
+  background: url("../img/skies.jpg");
+  background-position: center;
+  background-size: cover;
+
+}
+
+#item17 {
+  grid-column: 3;
+  grid-row: 12/15;
+  background: url("../img/lights.jpg");
+  background-position: center;
+  background-size: cover;
+
+}
+
+#item18 {
+  grid-column: 3;
+  grid-row: 15/20;
+  background: url("../img/workshop.jpg");
+  background-position: center;
+  background-size: cover;
+
+}
